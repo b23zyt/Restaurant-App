@@ -3,7 +3,7 @@ import React from 'react'
 import "./countDown.css"
 import Countdown from 'react-countdown'
 
-const date = new Date("2024-06-01")
+const date = new Date("2024-06-08")
 
 const CountDown = () => {
   return (
