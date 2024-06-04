@@ -1,0 +1,31 @@
+.footer-container {
+    height: 3rem;
+    padding: 1rem;
+    color: #8ba3f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer-text {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+
+@media (min-width: 1024) {
+    .footer-container {
+        height: 6rem;
+        padding-left: 3rem; /* Equivalent to lg:px-20 */
+        padding-right: 3rem; /* Equivalent to lg:px-20 */
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer-container {
+        padding-left: 5rem; /* Equivalent to xl:px-40 */
+        padding-right: 5rem; /* Equivalent to xl:px-40 */
+    }
+}

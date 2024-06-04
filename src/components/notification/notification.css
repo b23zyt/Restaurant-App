@@ -1,0 +1,19 @@
+.noti {
+    height: 3rem;
+    background-color: #4792d7;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .noti {
+      font-size: 14px;
+    }
+  }

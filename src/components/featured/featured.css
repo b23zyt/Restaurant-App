@@ -1,0 +1,94 @@
+.featured-container {
+    width: 100vw;
+    overflow-x: scroll;
+    white-space: nowrap;
+    color: rgb(208, 176, 12);
+}
+
+.featured-wrapper {
+    display: flex;
+    width: max-content;
+}
+
+.featured-single-item {
+    width: 90vw; 
+    height: 85vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    transition: background-color 300;
+}
+
+.featured-single-item:hover {
+    background-color: rgb(241, 235, 228);
+}
+
+
+.featured-image-container {
+    flex: 1;
+    object-fit: contain;
+    transition-property: all;
+    transition: 0.5s ease-in-out;
+    transform-origin: center;
+}
+.featured-image-container:hover {
+    transform: rotate(60deg);
+}
+
+.feature-text-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem; /* Adjust the gap value as per your requirement */
+    white-space: wrap;
+}
+
+.feature-text-container h1 {
+    
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.feature-text-container p {
+    padding: 1rem;
+}
+
+.feature-text-container span {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.feature-text-container button {
+    background-color: rgb(132, 210, 244);
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .featured-single-item {
+        width: 50vw;
+    }
+}
+
+@media (min-width: 1280px) {
+    .featured-single-item {
+        width: 33vw;
+        height: 100vh;
+    }
+
+    .feature-text-container h1 {
+        font-size: xx-large;
+    }
+
+    .feature-text-container p {
+        padding: 2rem;
+    }
+
+}

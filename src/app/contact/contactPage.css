@@ -1,0 +1,16 @@
+.contact-container {
+    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container h1 {
+    font-size: 4rem;
+    color: rgb(7, 70, 72);
+}
+
+.contact-container p {
+    font-size: 2rem;
+}

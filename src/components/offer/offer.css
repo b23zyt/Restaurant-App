@@ -1,0 +1,67 @@
+.offer-container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.offer-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.offer-text-container h1 {
+    color: rgb(249, 219, 20);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.offer-text-container p {
+    color: rgb(249, 219, 20);;
+}
+
+.offer-text-container button {
+    background-color: rgb(104, 186, 222);
+    color: white;
+    border-radius: 5px;
+    padding: 0.75rem 1.5rem;
+}
+
+.offer-image-container {
+    flex: 1;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 768px) {
+    .offer-container {
+        flex-direction: row; /* md:flex-row */
+        justify-content: space-between; /* md:justify-between */
+        background-image: url('/offerBg.png'); /* md:bg-[url('/offerBg.png')] */
+        height: 80vh; /* md:h-[70vh] */
+    }
+}
+
+@media (min-width: 1024px) {
+    .offer-text-container h1 {
+        font-size: 4rem;
+    }
+
+    .offer-text-container p {
+        font-size: x-large;
+    }
+
+    .offer-image{
+        height: 300px;
+        width: 750px;
+    }
+}

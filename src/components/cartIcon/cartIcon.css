@@ -1,0 +1,20 @@
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cart-image {
+    position: relative;
+    width: 20px;
+    height: 22px;
+    width: 1rem;
+    height: 1rem;
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 1.25rem; /* Equivalent to md:w-5 in Tailwind CSS */
+        height: 1.25rem; /* Equivalent to md:h-5 in Tailwind CSS */
+    }
+}

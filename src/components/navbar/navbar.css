@@ -1,0 +1,65 @@
+.navbar-container {
+    height: 3rem; 
+    color: #ef4444;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border-bottom-width: 2px;
+    border-bottom-color: #ef4444;
+    text-transform: uppercase; 
+}
+
+.logo {
+    font-size: 1.25rem;
+}
+
+.big {
+    display: none;
+}
+
+.big span {
+    color: black;
+}
+
+.phone-logo {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    background-color: rgb(244, 149, 231);
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .navbar-container {
+        height: 5rem;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: xx-large;
+        text-align: right;
+    }
+    .big {
+        display: flex;
+        gap: 2rem;
+        text-align: left;
+    }
+    .small {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-container {
+        padding-left: 3rem; /* lg:px-20 (left and right padding) */
+        padding-right: 3rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .navbar-container {
+        padding-left: 5rem; /* xl:px-40 (left and right padding) */
+        padding-right: 5rem;
+    }
+}
